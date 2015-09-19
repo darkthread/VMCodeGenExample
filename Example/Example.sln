@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{CBDB75F1-0233-491E-A2C4-C0AF9B78FDB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGen", "CodeGen\CodeGen.csproj", "{9302F719-C8B9-4E5C-9CAD-97C67702260A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModels", "ViewModels\ViewModels.csproj", "{0AA03DEF-C3B8-462C-9004-526C9DE644D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBDB75F1-0233-491E-A2C4-C0AF9B78FDB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBDB75F1-0233-491E-A2C4-C0AF9B78FDB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBDB75F1-0233-491E-A2C4-C0AF9B78FDB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBDB75F1-0233-491E-A2C4-C0AF9B78FDB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9302F719-C8B9-4E5C-9CAD-97C67702260A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9302F719-C8B9-4E5C-9CAD-97C67702260A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9302F719-C8B9-4E5C-9CAD-97C67702260A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9302F719-C8B9-4E5C-9CAD-97C67702260A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AA03DEF-C3B8-462C-9004-526C9DE644D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA03DEF-C3B8-462C-9004-526C9DE644D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AA03DEF-C3B8-462C-9004-526C9DE644D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AA03DEF-C3B8-462C-9004-526C9DE644D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

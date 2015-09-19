@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Models>
+  <Model Name="Player" Remark="The player data">
+    <Prop Name="Id" Type="string" Remark="Identity"></Prop>
+    <Prop Name="Name" Type="string" Remark="Player name"></Prop>
+    <Prop Name="RegDate" Type="DateTime" Remark="Date of registration"></Prop>
+    <Prop Name="HighScore" Type="int" Nullable="true" Remark="Highest score"></Prop>
+    <Prop Name="Rate" Type="float" Nullable="true" Remark="Rate of player"></Prop>
+    <Prop Name="IsVIP" Type="bool" Remark="Is VIP?"></Prop>
+  </Model>
+  <Model Name="Game" Remark="Game data">
+    <Prop Name="Seq" Type="int" Remark="Sequencial number"></Prop>
+    <Prop Name="GameId" Type="string" Remark="Game id"></Prop>
+    <Prop Name="PlayerId" Type="string" Remark="Player id"></Prop>
+    <Prop Name="DateTime" Type="DateTime" Remark="Date of game"></Prop>
+    <Prop Name="Score" Type="int" Remark="Score"></Prop>
+  </Model>
+</Models>

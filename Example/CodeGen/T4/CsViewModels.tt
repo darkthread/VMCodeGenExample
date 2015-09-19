@@ -1,0 +1,34 @@
+﻿<#@ template language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+using System;
+using System.Collections.Generic;
+namespace Darkthread
+{
+<#
+	foreach (var m in this.Models) 
+	{
+#>	
+	/// <summary>
+	/// <#= m.Remark #>
+	/// </summary>
+	public partial class <#= m.Name #>
+	{
+<#
+		foreach (var p in m.Properties)
+		{
+#>
+		/// <summary>
+		/// <#= p.Remark #>
+		/// </summary>
+		public <#= p.CsType #> <#= p.Name #> { get; set; }
+<#
+		}
+#>		
+	}
+<#
+	}
+#>
+}

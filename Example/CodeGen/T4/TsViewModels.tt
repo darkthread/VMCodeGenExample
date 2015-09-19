@@ -1,0 +1,24 @@
+﻿<#@ template language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+module models {
+<#
+    foreach (var m in this.Models) {
+#>
+	/** <#= m.Remark #> */
+    export class <#= m.Name #> {
+<#
+        foreach (var p in m.Properties) { 
+#>
+        /** <#= p.Remark #> */
+        <#= p.Name #> : <#= p.TsType #>;
+<#
+        }
+#>
+    }
+<#
+    }
+#>
+}
